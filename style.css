@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.ys7logo {
+  width: 50px;
+  border-radius: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+nav,
+header,
+footer {
+  background-color: #1f2937;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.qoute {
+  background-color: #e5e7eb;
+}
+
+.games h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  width: 80px;
+  height: 25px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 80px;
+}
+
+footer {
+  height: 50px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lside {
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.rside {
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  list-style-type: none;
+  margin-right: 10%;
+}
+
+header,
+.games,
+.qoute,
+.signup,
+.bluerib {
+  flex-grow: 1;
+}
+
+header {
+  display: flex;
+  padding: 50px 10% 50px 10%;
+  justify-content: space-between;
+}
+
+.hero {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero p {
+  flex-grow: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.imgcontainer {
+  width: 45%;
+}
+
+.adol {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.games h2 {
+  text-align: center;
+  padding: 50px 10% 50px 10%;
+}
+
+.ogames {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 10% 50px 10%;
+}
+
+.seq {
+  border: 2px solid blue;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.seq img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.degame p {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+blockquote p {
+  font-size: 35px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  text-align: start;
+}
+
+cite p {
+  text-align: end;
+}
+
+.qoute {
+  padding: 50px 20% 50px 20%;
+}
+
+footer {
+  height: 50px;
+}
+
+.signup {
+  padding: 50px 10% 50px 10%;
+}
+.bluerib {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 10% 40px 10%;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 10px;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#p1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#p2 {
+  font-size: 14px;
+  font-weight: lighter;
+}
